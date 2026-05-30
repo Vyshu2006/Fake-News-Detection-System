@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Fake News Detection System
 
 ## Objective
@@ -61,3 +62,7 @@ python -m streamlit run app.py
 ## Author
 
 Devalapalli Vaishnavi
+=======
+# Fake-News-Detection-System
+A Fake News Detection System built using Machine Learning and Natural Language Processing. The project uses TF-IDF vectorization and Logistic Regression to classify news articles as Real or Fake through an interactive Streamlit web application.
+>>>>>>> 8a5332d131ce16ed535797216554652bf8301f77
