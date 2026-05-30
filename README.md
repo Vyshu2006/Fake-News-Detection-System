@@ -1,68 +1,81 @@
-<<<<<<< HEAD
-# Fake News Detection System
+📰 Fake News Detection System
+📌 Overview
 
-## Objective
+The Fake News Detection System is a Machine Learning + NLP web application that classifies news articles as Real or Fake.
+It uses TF-IDF vectorization and Logistic Regression / Naive Bayes models and provides a real-time interactive web interface using Streamlit.
 
-The Fake News Detection System is a Machine Learning application that classifies news articles as Real or Fake using Natural Language Processing (NLP) techniques.
+🎯 Objective
 
-## Features
+To detect and classify fake news articles using machine learning techniques and help users identify misinformation in online content.
 
-* Fake News Detection
-* Real News Detection
-* TF-IDF Text Vectorization
-* Logistic Regression Model
-* Confidence Score
-* Interactive Streamlit Web Interface
+🚀 Features
+📰 Fake News Detection
+✅ Real News Detection
+📊 Confidence Score Prediction
+📈 Confusion Matrix Visualization
+☁️ Word Cloud Analysis (Fake vs Real News)
+🤖 Multiple ML Model Comparison
+🌐 Interactive Streamlit Web App
+📂 Dataset
+Fake News Dataset (Fake.csv)
+True News Dataset (True.csv)
 
-## Dataset
+Total Records: ~44,000+
 
-The project uses the Fake and Real News Dataset containing:
+🧠 Machine Learning Workflow
+Data Collection
+Data Preprocessing
+TF-IDF Vectorization
+Train-Test Split
+Model Training (Logistic Regression & Naive Bayes)
+Model Evaluation
+Visualization (Confusion Matrix + Word Clouds)
+Deployment using Streamlit
+📊 Model Performance
+Logistic Regression Accuracy: ~98%
+Naive Bayes Accuracy: ~94%
+📷 Visualizations
+Confusion Matrix
 
-* Fake News Articles
-* Real News Articles
+Shows correct and incorrect predictions of the model.
 
-Total Records: 44,898
-
-## Technologies Used
-
-* Python
-* Pandas
-* Scikit-learn
-* Streamlit
-* Joblib
-
-## Machine Learning Workflow
-
-1. Data Loading
-2. Data Preprocessing
-3. TF-IDF Vectorization
-4. Train-Test Split
-5. Logistic Regression Training
-6. Model Evaluation
-7. Web Application Deployment
-
-## Model Accuracy
-
-Accuracy Achieved: 98.59%
-
-## How to Run
-
-Install dependencies:
-
+Word Clouds
+Fake News Word Cloud
+Real News Word Cloud
+🛠 Tech Stack
+Python
+Pandas
+Scikit-learn
+Streamlit
+Matplotlib
+Seaborn
+WordCloud
+Joblib
+▶️ How to Run
+1. Install dependencies
 pip install -r requirements.txt
-
-Train model:
-
+2. Train model
 python train.py
-
-Run application:
-
+3. Run web app
 python -m streamlit run app.py
-
-## Author
+📁 Project Structure
+FakeNewsDetection/
+│
+├── data/
+├── app.py
+├── train.py
+├── fake_news_model.pkl
+├── vectorizer.pkl
+├── confusion_matrix.png
+├── fake_wordcloud.png
+├── real_wordcloud.png
+├── requirements.txt
+├── README.md
+└── screenshots/
+👨‍💻 Author
 
 Devalapalli Vaishnavi
-=======
-# Fake-News-Detection-System
-A Fake News Detection System built using Machine Learning and Natural Language Processing. The project uses TF-IDF vectorization and Logistic Regression to classify news articles as Real or Fake through an interactive Streamlit web application.
->>>>>>> 8a5332d131ce16ed535797216554652bf8301f77
+
+⭐ Outcome
+
+This project helps users identify fake news using AI, improving awareness about misinformation on digital platforms.
